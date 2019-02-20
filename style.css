@@ -1,0 +1,43 @@
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    border: solid gray 5px;
+    background-color: gray;
+    color: whitesmoke;
+    margin: 10px;
+
+}
+
+#img{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto auto;
+}
+
+#text{
+    text-align: left;
+    text-emphasis: bold;
+
+}
+
+#container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-between;
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 425px) {
+
+}
+
+
